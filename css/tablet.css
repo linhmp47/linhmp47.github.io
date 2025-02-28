@@ -1,0 +1,94 @@
+/* On screens that are 768px or less */
+@media screen and (max-width: 768px) {
+  .nav-bar-name {
+    display: none;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 55% auto;
+  }
+
+  .personal-info,
+  .target {
+    padding-left: 35px;
+  }
+
+  .job-info-offset {
+    padding: 20px;
+  }
+
+  .description-project td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+  }
+
+  .description-project table {
+    height: 200px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+
+  .title-project-1 {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+  }
+
+  .title-project-1 .drawtime {
+    grid-row: 1 / span 2;
+  }
+
+  .certificate-details {
+    display: block;
+  }
+
+  .project-charter .grid {
+    display: block;
+  }
+
+  .goals,
+  .team,
+  .timeline,
+  .scopes,
+  .primary {
+    display: block;
+  }
+
+  .goals i {
+    padding: 0;
+    margin: 45%;
+  }
+
+  .team i {
+    padding: 0;
+    margin: 45%;
+  }
+
+  .primary i {
+    padding: 0;
+    margin: 0 45%;
+  }
+
+  .dash-project {
+    border-bottom: dashed 1px #339af0;
+  }
+
+  .timeline .ic-number {
+    padding: 0;
+    margin: 0;
+  }
+
+  .timeline hr {
+    display: none;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5 {
+    padding-top: 20px;
+    border-bottom: 15px solid blue;
+  }
+}

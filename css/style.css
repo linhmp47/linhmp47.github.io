@@ -1,0 +1,436 @@
+* {
+  margin: 0px;
+}
+
+body {
+  color: #343a40;
+  font-family: sans-serif, "Inter";
+}
+
+i {
+  color: #339af0;
+}
+
+.section-title {
+  color: #343a40;
+  font-family: sans-serif, "Inter";
+}
+
+/* BANNER */
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+
+.banner-img {
+  background-size: cover;
+  filter: brightness(185%);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-text-position {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-text-position span {
+  font-size: 25px;
+  color:rgb(175, 168, 168)
+}
+
+/* NAVIGATION BAR */
+
+.nav-bar {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #343a40;
+}
+
+.img-nav-bar {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  border-radius: 150px;
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.nav-bar div {
+  color: #343a40;
+  padding: 15px 100px;
+  font-size: 17px;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.nav-bar a {
+  color: #343a40;
+  text-decoration: none;
+  padding: 50px 10px;
+  font-size: 17px;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.nav-bar .nav-bar-name {
+  font-size: 15px;
+}
+
+.nav-bar a:hover {
+  background-color: #ddd;
+  color: #343a40;
+}
+
+/* INFOR */
+.bg-grey {
+  background: #f7f7f7;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #343a40;
+}
+
+/* TARGET */
+.target {
+  background-color: #f7f7f7;
+  font-size: 17px;
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: auto;
+}
+
+/* PERSONAL INFORMATION */
+.personal-info {
+  background-color: #ddd;
+  font-size: 17px;
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: auto;
+}
+
+ul.ul-info {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* JOB INFOR */
+.job-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 10px;
+  color: #343a40;
+}
+
+.job-info-offset {
+  padding: 20px;
+}
+
+/* EXPERIENCE */
+.experience {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 10px;
+}
+
+.experience > div {
+  padding: 50px 25px;
+}
+
+.item-3 {
+  grid-column: 1 / -1;
+  text-align: left;
+}
+
+.item-3 li::before {
+  scale: calc(2);
+  content: "•";
+  color: #339af0;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.item-3-hobby {
+  grid-column: 1 / -1;
+  text-align: left;
+  padding: 10px;
+}
+
+.item-3-hobby td {
+  padding-bottom: 20px;
+  width: 25px;
+}
+
+.item-3-language {
+  grid-column: 1 / -1;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.span-1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.span-2 {
+  background: grey;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.span-3 {
+  background: #199cdb;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.span-4 {
+  background: grey;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.section-content {
+  border: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+/* CERTIFICATE */
+
+.certificate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #343a40;
+}
+
+.certificate-details {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.title-color-cert {
+  color: black;
+}
+
+.certificate-details-img {
+  width: 100%;
+  border-left: 1px solid #d6c08d;
+  padding-left: 10px;
+}
+
+/* PROJECT */
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  color: #343a40;
+}
+
+.project td {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.project table {
+  height: 200px;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+.description-project td {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.description-project table {
+  height: 200px;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+.title-project {
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: black;
+}
+
+.description-project a {
+  text-decoration: none;
+}
+
+.description-project a:hover {
+  background-color: gray;
+  color: #fff;
+}
+
+.title-project-1 {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.description-project {
+  padding: 25px;
+}
+
+.drawtime {
+  padding: 5px 5px;
+  border-radius: 50px;
+  background-color: #339af0;
+  color: white;
+  font-size: 14px;
+  width: 40px;
+  height: 30px;
+}
+
+/* FOOTER */
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.footer i {
+  padding: 0px 5px;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+}
+
+/* PROJECT CHARTER */
+.project-charter .grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 15px;
+  padding: 10px;
+}
+
+.grid .item3 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.grid h2 {
+  color: blue;
+  font-weight: 600;
+}
+
+.grid h5 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.grid i {
+  text-align: center;
+  margin-top: 25%;
+  padding-right: 150px;
+  color: #212529;
+  font-size: 24px;
+}
+
+.project-charter-item {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.project-charter {
+  background-color: blue;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.goals,
+.team,
+.timeline,
+.primary {
+  display: grid;
+  grid-template-columns: 15% auto;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+
+.scopes {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+}
+
+.ic-number {
+  font-size: 25px;
+  color: #fff;
+  background-color: #9775fa;
+  height: 45px;
+  width: 45px;
+  border-radius: 100px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 150px;
+}
+
+.goals a {
+  text-decoration: none;
+}
+
+.goals a:hover {
+  background-color: gray;
+  color: #fff;
+}
+
+.timeline td {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.timeline table {
+  height: 200px;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
