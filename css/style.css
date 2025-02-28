@@ -26,7 +26,7 @@ i {
 
 .banner-img {
   background-size: cover;
-  filter: brightness(185%);
+  filter: brightness(90%);
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
   height: 100vh;
   width: 100%;
@@ -34,14 +34,14 @@ i {
 
 .banner-text-position {
   position: absolute;
-  top: 25%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .banner-text-position span {
   font-size: 25px;
-  color:rgb(175, 168, 168)
+  color:rgb(213 203 203)
 }
 
 /* NAVIGATION BAR */
